@@ -13,7 +13,7 @@ document.getElementById("btnLowerCase").addEventListener("click",function(){
 
 
 document.getElementById("btnTrim").addEventListener("click",function(){
-    debugger;
+    
     var name=document.getElementById("txtName").value;
     document.getElementById("pResult").innerHTML=name.trim();
     
