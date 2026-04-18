@@ -7,7 +7,7 @@ debugger;
 //alert(lastName);
 //alert(email);
 //alert(firstName+' '+lastName+' '+ email);
- //   alert("My firstname is " + firstName +','+ " My lastName is "+lastName +','+" My email is " + email+".")
+ //alert("My firstname is " + firstName +','+ " My lastName is "+lastName +','+" My email is " + email+".")
    document.getElementById("pResult").innerHTML= "My firstname is " + firstName +','+ " My lastName is "+lastName +','+" My email is " + email+"."
     
 
