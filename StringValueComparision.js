@@ -7,9 +7,8 @@ document.getElementById("btnCompare").addEventListener("click",function(){
  console.log("True");
     }
  else{ 
+   
  console.log("False");
  }
- 
 
- 
 });
