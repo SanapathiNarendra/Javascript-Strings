@@ -16,6 +16,7 @@ function countVowels() {
             count++;
         }
     }
+    
     document.getElementById("output").innerHTML = "Number of vowels: " + count;
 
 }
