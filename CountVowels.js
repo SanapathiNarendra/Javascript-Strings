@@ -1,8 +1,10 @@
 function countVowels() {
-    var input = document.getElementById("word").value.toLowerCase;
+    var input = document.getElementById("word").value.toLowerCase();
     var count = 0;
 
-    for (let i = 0; i <input.length; i++) {
+    let i=0;
+   
+    for (; i <input.length; i++) {
         if (
             input[i] == 'a' ||
 
