@@ -6,6 +6,5 @@ function sumCalculator(){
    for (let i=startNumber; i<=endNumber; i++){
     sum = sum + i
     
-    
    }
 }
