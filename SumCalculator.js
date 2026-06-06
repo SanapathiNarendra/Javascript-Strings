@@ -5,5 +5,7 @@ function sumCalculator(){
    var sum = 0;
    for (let i=startNumber; i<=endNumber; i++){
     sum = sum + i
+    
+    
    }
 }
