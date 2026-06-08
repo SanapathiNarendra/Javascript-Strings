@@ -6,5 +6,6 @@ function reverseString() {
         stringReverse = stringReverse + string[i];
     }
 
+    
     document.getElementById("pResult").innerHTML = stringReverse.toUpperCase();
 }
