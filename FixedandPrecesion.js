@@ -2,8 +2,8 @@
     debugger;
     var number = document.getElementById("numberInput").value;
     var digits = document.getElementById("digitsInput").value;
-    var result = number.toFixed(digits);
-    document.getElementById("result").innerHTML = result;
+    var output = number.toFixed(digits);
+    document.getElementById("result").innerHTML = output;
 }       
 function  onClickPrecision(){
     debugger;
