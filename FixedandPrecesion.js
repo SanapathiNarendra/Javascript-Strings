@@ -1,15 +1,18 @@
- function  onClickFixed(){
+ 
+ function onclickFixed() {
     debugger;
-    var number = document.getElementById("numberInput").value;
-    var digits = document.getElementById("digitsInput").value;
-    var output = number.toFixed(digits);
-    document.getElementById("result").innerHTML = output;
-}       
-function  onClickPrecision(){
-    debugger;
-    var number = document.getElementById("numberInput").value;
-    var digits = document.getElementById("precisionInput").value;
-    var result = number.toPrecision(digits);
-    document.getElementById("precisionResult").innerHTML = result;
+    var number = Number(document.getElementById("numberInput").value);
+    var digits = Number(document.getElementById("fixedInput").value);
 
- }
+    var fixedValue = number.toFixed(digits);
+    document.getElementById("pResult").innerHTML = fixedValue;
+}
+
+function onClickPrecision() {
+    debugger;
+    var number = Number(document.getElementById("numberInput").value);
+    var digits = Number(document.getElementById("fixedInput").value);
+
+    var result = number.toPrecision(digits);
+    document.getElementById("pResult").innerHTML = result;
+}
