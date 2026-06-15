@@ -3,6 +3,7 @@ function generateFibonacci() {
     var terms = Number(document.getElementById("txtNumber").value);
 
     var first = 0;
+    
     var second = 1;
     var series = "";
 
