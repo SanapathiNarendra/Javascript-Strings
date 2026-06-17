@@ -9,6 +9,7 @@ function generateFibonacci() {
         var next = first + second;
         first = second;
         second = next;
+        
     }
 
     document.getElementById("pResult").innerHTML =
