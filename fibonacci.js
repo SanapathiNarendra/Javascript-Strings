@@ -3,7 +3,7 @@ function generateFibonacci() {
     var first = 0;  
     var second = 1;
     var series = "";
-    for (var i = 1; i <= terms; i++) {
+    for (var i = 0; i <= terms; i++) {
         series += first + " ";
 
         var next = first + second;
