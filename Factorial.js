@@ -8,7 +8,6 @@ function calculateFactorial() {
     for (var i = 1; i <= number; i++) {
         factorial = factorial * i;
     }
-
     document.getElementById("pResult").innerHTML =
         "Factorial = " + factorial;
 }
