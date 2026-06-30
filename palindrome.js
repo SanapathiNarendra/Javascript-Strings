@@ -12,7 +12,6 @@ function checkPalindrome() {
         number = Math.floor(number / 10);
     }
 
-
     if (originalNumber === reversedNumber) {
         document.getElementById("pResult").innerHTML =
             originalNumber + " is a Palindrome";
