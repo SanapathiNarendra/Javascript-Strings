@@ -16,7 +16,6 @@ function checkPalindrome() {
         document.getElementById("pResult").innerHTML =
             originalNumber + " is a Palindrome";
     }
-
     
     else {
         document.getElementById("pResult").innerHTML =
