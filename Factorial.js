@@ -1,3 +1,4 @@
+
 function calculateFactorial() {
 
     var number = Number(document.getElementById("txtNumber").value);
