@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 40px;
+    margin: 45px;
     background-color: #f0f8ff;
 }
 
@@ -17,7 +17,7 @@ label {
 
 input {
     
-    padding: 8px;
+    padding: 9px;
     width: 200px;
     margin-bottom: 11px;
     border: 2px solid #0066cc;
