@@ -1,6 +1,7 @@
 document.getElementById("btnStringArray").addEventListener("click",function() {
 debugger;
 
+
 var name=document.getElementById("txtStringArray").value;
 document.getElementById("pResult").innerHTML=name[0];
 document.getElementById("pLength").innerHTML=name.length;
