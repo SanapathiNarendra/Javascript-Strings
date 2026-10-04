@@ -6,5 +6,4 @@ function addStrings() {
     alert(result);
 
 }
-
 addStrings();
