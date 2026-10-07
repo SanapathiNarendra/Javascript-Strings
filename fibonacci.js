@@ -6,7 +6,6 @@ function generateFibonacci() {
     for (var i = 1; i <= terms; i++) {
         
         series += first + " ";
-
         var next = first + second;
         first = second;
         second = next;
