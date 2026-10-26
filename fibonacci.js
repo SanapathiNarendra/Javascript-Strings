@@ -10,6 +10,7 @@ function generateFibonacci() {
         first = second;
         second = next;
     }
+    
     document.getElementById("pResult").innerHTML =
         "Fibonacci Series: " + series;
 }
