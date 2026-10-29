@@ -1,13 +1,107 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Multiplication Function</title>
-    <script src="Multiplication.js" defer></script>
-    
+    <title>Multiplication Calculator</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #eaf2f8;
+            text-align: center;
+            padding: 40px 15px;
+        }
+
+        .calculator {
+            background: white;
+            max-width: 350px;
+            margin: auto;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px #999;
+        }
+
+        h2 {
+            color: #1565c0;
+        }
+
+        input {
+            width: 90%;
+            padding: 12px;
+            margin: 10px 0;
+            font-size: 18px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        button {
+            padding: 12px 20px;
+            margin: 8px;
+            background: #1565c0;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0d47a1;
+        }
+
+        #result {
+            font-size: 24px;
+            color: green;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
 </head>
+
+
 <body>
-    
+
+    <div class="calculator">
+        <h2>Multiplication Calculator</h2>
+
+        <input type="number" id="num1" placeholder="Enter first number">
+
+        <input type="number" id="num2" placeholder="Enter second number">
+
+        <br>
+
+        <button onclick="multiply()">Multiply ×</button>
+        <button onclick="clearValues()">Clear</button>
+
+        <div id="result">Result: 0</div>
+    </div>
+
+    <script>
+        function multiply() {
+            const a = document.getElementById("num1").value;
+            const b = document.getElementById("num2").value;
+
+            if (a === "" || b === "") {
+                document.getElementById("result").textContent =
+                    "Please enter both numbers!";
+                return;
+            }
+
+            const answer = Number(a) * Number(b);
+
+            document.getElementById("result").textContent =
+                "Result: " + answer;
+        }
+
+        function clearValues() {
+            document.getElementById("num1").value = "";
+            document.getElementById("num2").value = "";
+            document.getElementById("result").textContent = "Result: 0";
+        }
+    </script>
+
 </body>
 </html>
+```
