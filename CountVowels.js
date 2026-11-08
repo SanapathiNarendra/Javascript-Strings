@@ -1,3 +1,4 @@
+
 function countVowels() {
     var input = document.getElementById("word").value.toLowerCase();
     var count = 0;
